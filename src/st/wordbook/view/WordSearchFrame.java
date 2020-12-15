@@ -14,9 +14,9 @@ public class WordSearchFrame extends JFrame {
 	private WordbookController co = new WordbookController();
 	private List<WordsVO> resultList = new ArrayList<WordsVO>();
 	
-	JTable resultTable;
-	String columns[] = new String[] { "영어단어", "뜻" };
-	String data[][];
+	private JTable resultTable;
+	private String columns[] = new String[] { "영어단어", "뜻" };
+	private String data[][];
 
 	public WordSearchFrame(String s) {
 		super("단어 검색 결과");
